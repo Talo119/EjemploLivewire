@@ -2,6 +2,6 @@
 
 @section('content')
     <div class="container-fluid">
-        @livewire('post-component')
+        <h2 class="text-primary">Clients</h2>
     </div>
 @endsection

@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('posts');
 });
+
+Route::view('clientes', 'clients')->name('misclientes');

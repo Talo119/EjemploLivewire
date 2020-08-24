@@ -8,14 +8,17 @@ use App\Post;
 class PostComponent extends Component
 {
     use WithPagination;
-    public $post_id, $title, $body;
+    public $post_id, $title, $body, $total_post;
     public $view = 'create';
     public function render()
     {
 
         return view('livewire.post-component',[
-            'posts' => Post::orderBy('id','desc')->paginate(8)
+            'posts' => Post::orderBy('id','desc')->paginate(8),
+            //'total_post' => '5'
+            
         ]);
+        $this->total_post = 5;
     }
 
     public function store()

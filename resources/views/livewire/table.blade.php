@@ -1,4 +1,7 @@
-<h2>Listado de Posts</h2>
+<h2>
+    Listado de Posts
+    <span class="badge badge-primary"><small wire:model="total_post"></small></span>
+</h2>
 
 <table class="table"> 
     <thead>

@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row mt-3">
     <div class="col-sm-3">
         @include("livewire.$view")
     </div>
