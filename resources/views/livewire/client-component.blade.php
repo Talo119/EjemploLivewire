@@ -3,6 +3,6 @@
         @include("livewire.$view")
     </div>
     <div class="col-md-9">
-        @include('livewire.table')
+        @include('livewire.tableClients')
     </div>
 </div>
